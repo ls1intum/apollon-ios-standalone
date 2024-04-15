@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0672FC7D2BA4830700C9366F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0672FC7C2BA4830700C9366F /* PrivacyInfo.xcprivacy */; };
 		0673F70A2B9603DA00FA3390 /* RelativeDateTimeFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F7092B9603DA00FA3390 /* RelativeDateTimeFormatterExtension.swift */; };
 		0673F70C2B96057500FA3390 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673F70B2B96057500FA3390 /* DateFormatter.swift */; };
 		F734D1452B17980D00435866 /* ApollonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734D1442B17980D00435866 /* ApollonApp.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0672FC7C2BA4830700C9366F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0673F7092B9603DA00FA3390 /* RelativeDateTimeFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeDateTimeFormatterExtension.swift; sourceTree = "<group>"; };
 		0673F70B2B96057500FA3390 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		06FAB0C42B347540004B02DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				06FAB0C42B347540004B02DA /* Info.plist */,
 				F7C91B0F2B2093AE009F065F /* LaunchScreen.storyboard */,
+				0672FC7C2BA4830700C9366F /* PrivacyInfo.xcprivacy */,
 				F734D1782B17996500435866 /* Assets.xcassets */,
 				F734D1792B17996500435866 /* Preview Content */,
 				F77BAF892B81222900A36C94 /* Settings.bundle */,
@@ -312,6 +315,7 @@
 				F77BAF8A2B81222900A36C94 /* Settings.bundle in Resources */,
 				F7C91B102B2093AE009F065F /* LaunchScreen.storyboard in Resources */,
 				F734D17D2B17996500435866 /* Preview Assets.xcassets in Resources */,
+				0672FC7D2BA4830700C9366F /* PrivacyInfo.xcprivacy in Resources */,
 				F734D17C2B17996500435866 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
