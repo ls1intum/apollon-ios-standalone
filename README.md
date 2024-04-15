@@ -38,6 +38,11 @@ The list of UML diagram types includes:
 | <img src="/docs/images/EditElement-Screenshot.png" width="300"/> | <img src="/docs/images/Share-Screenshot.png" width="300"/> | <img src="/docs/images/DarkMode-Screenshot.png" width="300"/> |
 
 ## Usage
+### Download
+You can install the app on your iPhone or iPad from the App Store:
+- [Apollon - UML Modeling Editor](https://apps.apple.com/de/app/apollon-uml-modeling-editor/id6474762031?l=en-GB)
+
+### Local
 1. Clone the repository
 ```
 git clone https://github.com/ls1intum/apollon-ios.git
@@ -46,7 +51,7 @@ git clone https://github.com/ls1intum/apollon-ios.git
 3. Compile and run the application in your simulator
 
 ## Technical
-The app was created as a native iOS implementation of the [Apollon Standalone](https://apollon.ase.cit.tum.de). We employ the MVVM design pattern as the general architectural pattern. The main modeling functionality is imported from the [Apollon-iOS-Module](https://github.com/ls1intum/apollon-ios-module) SPM package and utilizes the `ApollonEdit` module to enable users to create, modify, and interact with UML diagrams. The previews on the home screen utilize the `ApollonView` module to allow users to see a preview of their diagram. Further, the diagrams are saved locally on the device using SwiftData, so no internet connection is needed.
+The app was created as a native iOS implementation of the [Apollon Standalone](https://apollon.ase.cit.tum.de) web client. We employ the MVVM design pattern as the general architectural pattern. The main modeling functionality is imported from the [Apollon-iOS-Module](https://github.com/ls1intum/apollon-ios-module) SPM package and utilizes the `ApollonEdit` module to enable users to create, modify, and interact with UML diagrams. The previews on the home screen utilize the `ApollonView` module to allow users to see a preview of their diagram. Further, the diagrams are saved locally on the device using SwiftData, so no internet connection is needed.
 
 ## Contact
 For issues or questions regarding the app, please contact [Support](mailto:ios-support.ase@xcit.tum.de).
